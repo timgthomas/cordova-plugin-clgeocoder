@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-clgeocoder",
+  "version": "0.1.0",
+  "description": "Cordova plugin for geocoding with CoreLocation for iOS",
+  "scripts": {
+    "test": "npm run _jshint",
+    "_jshint": "jshint www"
+  },
+  "cordova": {
+    "id": "cordova-plugin-clgeocoder",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timgthomas/cordova-plugin-clgeocoder.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "geo",
+    "geocoding"
+  ],
+  "author": "Tim G. Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timgthomas/cordova-plugin-clgeocoder/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  }
+}
