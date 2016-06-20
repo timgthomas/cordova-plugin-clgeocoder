@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
-exports.reverseGeocodeLocation = function(arg0, success, error) {
-  exec(success, error, 'CLGeocoderPlugin', 'reverseGeocodeLocation', [ arg0 ]);
+exports.reverseGeocodeLocation = function(latitude, longitude, success, error) {
+  exec(success, error, 'CLGeocoderPlugin', 'reverseGeocodeLocation', [ latitude, longitude ]);
 };

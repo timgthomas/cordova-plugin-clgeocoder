@@ -11,5 +11,9 @@
       </feature>
     </config-file>
     <source-file src="src/ios/CLGeocoderPlugin.swift" />
+    <framework src="CoreLocation.framework" />
+    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+      <string></string>
+    </config-file>
   </platform>
 </plugin>
